@@ -18,7 +18,7 @@ def set_cmd_text_color(color, handle=std_out_handle):
 def mprint(write,color):
     set_cmd_text_color(color)
     sys.stdout.write(write)
-    set_cmd_text_color(16)#使下一行变为白色
+    set_cmd_text_color(15)#使下一行变为白色
 
 
 
